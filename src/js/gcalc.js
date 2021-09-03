@@ -17,6 +17,7 @@ export class Ager {
   }
 
   mercuryTimeLeft() {
-
+    this.yearsToLive = Math.round((this.lifeExpect - this.age) * 0.24);
+    return `About ${this.yearsToLive} Mercurian years`;
   }
 }
