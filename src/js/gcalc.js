@@ -23,4 +23,9 @@ export class Ager {
     }
     return `About ${this.yearsToLive} Mercurian years`;
   }
+
+  venusTimeLeft() {
+    this.yearsToLive = Math.round((this.lifeExpect - this.age) * 0.62);
+    return `About ${this.yearsToLive} Venutian years`;
+  }
 }
