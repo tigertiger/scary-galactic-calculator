@@ -18,6 +18,9 @@ export class Ager {
 
   mercuryTimeLeft() {
     this.yearsToLive = Math.round((this.lifeExpect - this.age) * 0.24);
+    if (this.yearsToLive < 0) {
+      return `You have already lived about ${Math.round((this.age - this.lifeExpect) * 0.24)} Mercurian years longer than expected. Good job.`
+    }
     return `About ${this.yearsToLive} Mercurian years`;
   }
 }
