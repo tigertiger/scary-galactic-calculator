@@ -12,6 +12,8 @@ export class Ager {
     return yearsToLive;
   }
 
+  // if yearsToLive < 1 { return "You have lived [] years longer than expected."}
+
   // The other way...
 
   // export class Ager {

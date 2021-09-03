@@ -69,6 +69,10 @@ describe("ager", () => {
     expect(friend1.timeLeft()).toEqual(31);
   });
 
+  test("should return years lived beyond life expectancy, if ager has surpassed life expectancy", () => {
+    let friend2 = new Ager(109, "Oceania", "Female", "High", "91");
+    expect(friend2.timeLeft()).toEqual("You have already lived 18 years longer than expected. Good job.");
+  });
 });
 
 
