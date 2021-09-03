@@ -25,7 +25,7 @@ describe("ager", () => {
   });
 
   test("should correctly return ager's estimated remaining lifespan, in Earth years, based on user-input variables", () => {
-    expect(friend1.timeLeft()).toEqual(91);
+    expect(friend1.timeLeft()).toEqual(31);
   });
 
 });
