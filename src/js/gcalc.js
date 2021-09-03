@@ -7,14 +7,7 @@ export class Ager {
     this.lifeExpect = lifeExpect;
   }
 
-  timeLeft() {
-    let modifiers = 0;
-    this.lifeExpect = this.age += modifiers;
-    if (this.assignedSex === "Male") {
-      modifiers += 62;
-    } else if (this.assignedSex === "Female") {
-      modifiers += 65;
-    }
-    return this.lifeExpect;
+  lifeExpectancy() {
+
   }
 }
