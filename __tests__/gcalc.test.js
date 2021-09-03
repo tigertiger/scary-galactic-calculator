@@ -42,6 +42,11 @@ describe("ager", () => {
     expect(friend2.mercuryTimeLeft()).toEqual("You have already lived about 4 Mercurian years longer than expected. Good job.");
   });
 
+  test("should return life expectancy in Venutian years", () => {
+    friend1.timeLeft();
+    expect(friend1.venusTimeLeft()).toEqual("About 19 Venutian years");
+  });
+
 });
 
 
