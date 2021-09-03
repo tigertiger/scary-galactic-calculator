@@ -2,7 +2,7 @@
 
 #### _Determine your other-worldly age_
 
-#### By _**{List of contributors}**_
+#### By _**Melissa Schatz-Miller**_
 
 ## Technologies Used
 
@@ -13,24 +13,22 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This application calculates the age of a given ager on various planets in Earth's solar system based on the respective length of a planet's solar year. This application will also estimate how many more solar years an ager could expect to live on a given planet._
 
 ## Setup/Installation Requirements
 
-* _Clone [this repository](https://github.com/tigertiger/REPONAME) to an empty folder or to your desktop.  
+* _Clone [this repository](https://github.com/tigertiger/scary-galactic-calculator) to an empty folder or to your desktop.  
 Instructions for cloning can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)._
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Open the galactic-calculator folder in Visual Studio Code or your alternate code editor of choice._
+&nbsp;&nbsp; _Please note that these instructions were written with VS Code MacOS in mind. If you are using a different code editor/OS, the process may vary. You can download VS Code here: [VS Code Download](https://code.visualstudio.com/download)_
+* _In VS Code, use the Terminal dropdown to open a new Terminal_
+* _run the command ```npm install```_
+* _explore, modify, & test the code._
+&nbsp;&nbsp; _Please note that this program has no user interface. Feel free to build one!_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs at this time_
 
 ## License
 
