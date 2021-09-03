@@ -33,7 +33,7 @@ describe("ager", () => {
     expect(friend2.timeLeft()).toEqual("You have already lived 18 years longer than expected. Good job.");
   });
 
-  test("should return life expectancy in Mercury years", () => {
+  test("should correctly return ager's estimated remaining lifespan, in Mercurian years", () => {
     friend1.timeLeft();
     expect(friend1.mercuryTimeLeft()).toEqual("About 7 Mercurian years");
   });
@@ -42,13 +42,18 @@ describe("ager", () => {
     expect(friend2.mercuryTimeLeft()).toEqual("You have already lived about 4 Mercurian years longer than expected. Good job.");
   });
 
-  test("should return life expectancy in Venutian years", () => {
+  test("should correctly return ager's estimated remaining lifespan, in Venutian years", () => {
     friend1.timeLeft();
     expect(friend1.venusTimeLeft()).toEqual("About 19 Venutian years");
   });
 
   test("should return Venutian years lived beyond life expectancy", () => {
     expect(friend2.venusTimeLeft()).toEqual("You have already lived about 11 Venutian years longer than expected. Good job.");
+  });
+
+  test("should correctly return ager's estimated remaining lifespan, in Martian years", () => {
+    friend1.timeLeft();
+    expect(friend1.marsTimeLeft()).toEqual("About 58 Martian years");
   });
 
 });

@@ -31,4 +31,8 @@ export class Ager {
     }
     return `About ${this.yearsToLive} Venutian years`;
   }
+
+  marsTimeLeft() {
+
+  }
 }
