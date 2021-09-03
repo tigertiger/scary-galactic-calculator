@@ -47,6 +47,11 @@ describe("ager", () => {
     expect(friend1.venusTimeLeft()).toEqual("About 19 Venutian years");
   });
 
+  test("should return Venutian years lived beyond life expectancy", () => {
+    let friend2 = new Ager(109, "Oceania", "Female", "High", "91");
+    expect(friend2.venusTimeLeft()).toEqual("You have already lived about 11 Venutian years longer than expected. Good job.");
+  });
+
 });
 
 
