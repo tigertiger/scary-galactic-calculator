@@ -19,8 +19,9 @@ Instructions for cloning can be found [here](https://docs.github.com/en/github/c
 * _Open the galactic-calculator folder in Visual Studio Code or your alternate code editor of choice._  
 &nbsp;&nbsp; _Please note that these instructions were written with VS Code MacOS in mind. If you are using a different code editor/OS, the process may vary. You can download VS Code here: [VS Code Download](https://code.visualstudio.com/download)_
 * _In VS Code, use the Terminal dropdown to open a new Terminal_
-* _Run the command ```npm install```_
-* _Explore, modify, & test the code._  
+* _Run the command ```npm install``` to set up the environment_
+* _Run ```npm test``` to view all currently passing tests_
+* _Explore, modify, & test the code to your heart's content_
 &nbsp;&nbsp; _Please note that this program has no user interface. Feel free to build one!_
 
 ## Known Bugs
@@ -37,27 +38,3 @@ _Please feel free to reach out to me with suggested changes/improvements, or if 
 ## Contact Information
 
 Melissa Schatz-Miller <melissa.scmi@gmail.com>
-
-
-///
-
-user-input life expectancy
-||
-user-input continent, sex, motivation
-===
-years left to live
-
-ager prototype to determine life expect
-
-North America: 77/81
-Oceania: 77/81
-Europe: 75/82
-Latin America/Caribbean: 72/79
-Asia: 71/75
-Africa: 62/65
-Other: 70/75
-
-Low: -10
-Med: 0
-High: +10
-I intend to live forever: +20
