@@ -22,7 +22,7 @@ Instructions for cloning can be found [here](https://docs.github.com/en/github/c
 * _In VS Code, use the Terminal dropdown to open a new Terminal_
 * _Run the command ```npm install``` to set up the environment_
 * _Run ```npm test``` to view all currently passing tests_
-* _Explore, modify, & test the code to your heart's content_
+* _Explore, modify, & test the code to your heart's content_  
 &nbsp;&nbsp; _Please note that this program has no user interface. Feel free to build one!_
 
 ## Known Bugs
@@ -34,8 +34,8 @@ Instructions for cloning can be found [here](https://docs.github.com/en/github/c
 _[GPL](https://opensource.org/licenses/gpl-license)_
 _Copyright (c) 2021, Melissa Schatz-Miller_
 
-_Please feel free to reach out to me with suggested changes/improvements, or if you have any questions._
-
 ## Contact Information
 
-Melissa Schatz-Miller <melissa.scmi@gmail.com>
+Melissa Schatz-Miller <melissa.scmi@gmail.com>  
+
+_Please feel free to reach out to me with suggested changes/improvements, or if you have any questions._
