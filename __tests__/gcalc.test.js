@@ -65,6 +65,10 @@ describe("ager", () => {
     expect(friend1.jupiterTimeLeft()).toEqual("About 368 Juvian years");
   });
 
+  test("should return Juvian years lived beyond life expectancy", () => {
+    expect(friend2.jupiterTimeLeft()).toEqual("You have already lived about 213 Juvian years longer than expected. Good job.");
+  });
+
 });
 
 
