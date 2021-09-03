@@ -42,6 +42,9 @@ export class Ager {
 
   jupiterTimeLeft() {
     this.yearsToLive = Math.round((this.lifeExpect - this.age) * 11.86);
+    if (this.yearsToLive < 0) {
+      return `You have already lived about ${Math.round((this.age - this.lifeExpect) * 11.86)} Juvian years longer than expected. Good job.`
+    }
     return `About ${this.yearsToLive} Juvian years`;
   }
 }
