@@ -9,10 +9,12 @@ export class Ager {
 
   timeLeft() {
     let yearsToLive = this.lifeExpect - this.age;
+    if (yearsToLive < 0) {
+      return `You have already lived ${this.age - this.lifeExpect} years longer than expected. Good job.`
+    }
     return yearsToLive;
   }
 
-  // if yearsToLive < 1 { return "You have lived [] years longer than expected."}
 
   // The other way...
 
