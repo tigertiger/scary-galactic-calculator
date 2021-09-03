@@ -8,7 +8,8 @@ export class Ager {
   }
 
   timeLeft() {
-
+    let yearsToLive = this.lifeExpect - this.age;
+    return yearsToLive;
   }
 
   // The other way...
