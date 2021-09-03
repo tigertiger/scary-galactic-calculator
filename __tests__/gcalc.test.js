@@ -1,9 +1,16 @@
-import { Ager } from "./../src/gcalc.js";
+import { Ager } from "../src/js/gcalc.js";
 
 describe("ager", () => {
-  test("should create an ager object", () => {
-  let friend1 = new Ager();
-  expect(friend1).toBeDefined();
-  console.log(friend1);
+  let friend1;
+  beforeEach(() => {
+    friend1 = new Ager();
   });
+
+  test("should create an ager object", () => {
+  expect(friend1).toBeDefined();
+  });
+
+  test("should correctly return ager's age in earth years", () => {
+    expect(friend1.age).toEqual(60);
+    });
 });
