@@ -60,6 +60,11 @@ describe("ager", () => {
     expect(friend2.marsTimeLeft()).toEqual("You have already lived about 34 Martian years longer than expected. Good job.");
   });
 
+  test("should correctly return ager's estimated remaining lifespan, in Juvian years", () => {
+    friend1.timeLeft();
+    expect(friend1.jupiterTimeLeft()).toEqual("About 368 Juvian years");
+  });
+
 });
 
 

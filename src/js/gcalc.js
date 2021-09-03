@@ -39,4 +39,8 @@ export class Ager {
     }
     return `About ${this.yearsToLive} Martian years`;
   }
+
+  jupiterTimeLeft() {
+    
+  }
 }
