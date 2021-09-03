@@ -7,7 +7,7 @@ import { jupiterAgerEr } from "../src/js/jupiter.js";
 describe("ager", () => {
   let friend1;
   beforeEach(() => {
-    friend1 = new Ager(60);
+    friend1 = new Ager(60, 81);
   });
 
   test("should create an ager object", () => {
