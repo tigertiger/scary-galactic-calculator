@@ -41,6 +41,7 @@ export class Ager {
   }
 
   jupiterTimeLeft() {
-    
+    this.yearsToLive = Math.round((this.lifeExpect - this.age) * 11.86);
+    return `About ${this.yearsToLive} Juvian years`;
   }
 }
