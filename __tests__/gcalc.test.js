@@ -6,8 +6,10 @@ import { jupiterAgerEr } from "../src/js/jupiter.js";
 
 describe("ager", () => {
   let friend1;
+  let friend2;
   beforeEach(() => {
     friend1 = new Ager(60, "North America", "Female", "High", 91);
+    friend2 = new Ager(109, "Oceania", "Female", "High", "91");
   });
 
   test("should create an ager object", () => {
@@ -28,7 +30,6 @@ describe("ager", () => {
   });
 
   test("should return years lived beyond life expectancy, if ager has surpassed life expectancy", () => {
-    let friend2 = new Ager(109, "Oceania", "Female", "High", "91");
     expect(friend2.timeLeft()).toEqual("You have already lived 18 years longer than expected. Good job.");
   });
 
@@ -38,7 +39,6 @@ describe("ager", () => {
   });
 
   test("should return Mercurian years lived beyond life expectancy, if ager has surpassed life expectancy", () => {
-    let friend2 = new Ager(109, "Oceania", "Female", "High", "91");
     expect(friend2.mercuryTimeLeft()).toEqual("You have already lived about 4 Mercurian years longer than expected. Good job.");
   });
 
@@ -48,7 +48,6 @@ describe("ager", () => {
   });
 
   test("should return Venutian years lived beyond life expectancy", () => {
-    let friend2 = new Ager(109, "Oceania", "Female", "High", "91");
     expect(friend2.venusTimeLeft()).toEqual("You have already lived about 11 Venutian years longer than expected. Good job.");
   });
 

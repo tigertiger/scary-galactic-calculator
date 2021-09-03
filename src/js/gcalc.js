@@ -26,6 +26,9 @@ export class Ager {
 
   venusTimeLeft() {
     this.yearsToLive = Math.round((this.lifeExpect - this.age) * 0.62);
+    if (this.yearsToLive < 0) {
+      return `You have already lived about ${Math.round((this.age - this.lifeExpect) * 0.62)} Venutian years longer than expected. Good job.`
+    }
     return `About ${this.yearsToLive} Venutian years`;
   }
 }
