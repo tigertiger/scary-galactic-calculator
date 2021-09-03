@@ -6,7 +6,7 @@ export class Ager {
     this.motivation = motivation;
   }
 
-  // timeLeft() {
-
-  // }
+  timeLeft() {
+    
+  }
 }

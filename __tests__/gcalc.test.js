@@ -24,6 +24,10 @@ describe("ager", () => {
     expect(friend1.motivation).toBe("High");
   });
 
+  test("should correctly return ager's estimated remaining lifespan, in Earth years, based on user-input variables", () => {
+    expect(friend1.timeLeft()).toEqual(91);
+  });
+
 });
 
 
