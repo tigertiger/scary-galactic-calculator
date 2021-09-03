@@ -37,6 +37,11 @@ describe("ager", () => {
     expect(friend1.mercuryTimeLeft()).toEqual("About 7 Mercurian years");
   });
 
+  test("should return Mercurian years lived beyond life expectancy, if ager has surpassed life expectancy", () => {
+    let friend2 = new Ager(109, "Oceania", "Female", "High", "91");
+    expect(friend2.mercuryTimeLeft()).toEqual("You have already lived about 4 Mercurian years longer than expected. Good job.");
+  });
+
 });
 
 
