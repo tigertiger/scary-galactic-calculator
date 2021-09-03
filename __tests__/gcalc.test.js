@@ -3,7 +3,7 @@ import { Ager } from "../src/js/gcalc.js";
 describe("ager", () => {
   let friend1;
   beforeEach(() => {
-    friend1 = new Ager();
+    friend1 = new Ager(60);
   });
 
   test("should create an ager object", () => {
