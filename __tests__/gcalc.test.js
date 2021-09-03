@@ -17,6 +17,11 @@ describe("ager", () => {
   test("should correctly return ager's age in Earth years", () => {
     expect(friend1.age).toEqual(60);
     });
+
+  test("should correctly return ager's life expectancy, based on user input", () => {
+    expect(friend1.lifeExpect).toEqual(81);
+  });
+
 });
 
 
