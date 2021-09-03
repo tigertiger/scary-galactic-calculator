@@ -7,6 +7,9 @@ export class Ager {
     this.lifeExpect = lifeExpect;
   }
 
+  timeLeft() {
+
+  }
 
   // The other way...
 
