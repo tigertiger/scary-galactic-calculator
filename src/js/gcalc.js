@@ -34,6 +34,9 @@ export class Ager {
 
   marsTimeLeft() {
     this.yearsToLive = Math.round((this.lifeExpect - this.age) * 1.88);
+    if (this.yearsToLive < 0) {
+      return `You have already lived about ${Math.round((this.age - this.lifeExpect) * 1.88)} Martian years longer than expected. Good job.`
+    }
     return `About ${this.yearsToLive} Martian years`;
   }
 }
