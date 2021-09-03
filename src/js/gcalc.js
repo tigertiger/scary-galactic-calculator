@@ -33,6 +33,7 @@ export class Ager {
   }
 
   marsTimeLeft() {
-
+    this.yearsToLive = Math.round((this.lifeExpect - this.age) * 1.88);
+    return `About ${this.yearsToLive} Martian years`;
   }
 }
