@@ -7,7 +7,7 @@ import { jupiterAgerEr } from "../src/js/jupiter.js";
 describe("ager", () => {
   let friend1;
   beforeEach(() => {
-    friend1 = new Ager(60, 81);
+    friend1 = new Ager(60);
   });
 
   test("should create an ager object", () => {
@@ -18,8 +18,10 @@ describe("ager", () => {
     expect(friend1.age).toEqual(60);
     });
 
-  test("should correctly return ager's life expectancy, based on user input", () => {
-    expect(friend1.lifeExpect).toEqual(81);
+  test("should correctly return ager's homeland, sex, & motivation to continue living, based on user input", () => {
+    expect(friend1.homeland).toBe("North America");
+    expect(friend1.assignedSex).toBe("Female");
+    expect(friend1.motivation).toBe("High");
   });
 
 });

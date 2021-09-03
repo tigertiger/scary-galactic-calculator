@@ -1,6 +1,12 @@
 export class Ager {
-  constructor(age, lifeExpect) {
+  constructor(age, homeland, assignedSex, motivation) {
     this.age = age;
-    this.lifeExpect = lifeExpect;
+    this.homeland = homeland;
+    this.assignedSex = assignedSex;
+    this.motivation = motivation;
   }
+
+  // timeLeft() {
+
+  // }
 }
