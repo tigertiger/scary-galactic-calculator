@@ -24,7 +24,7 @@ describe("ager", () => {
 
   test("should correctly return ager's estimated remaining lifespan, in Earth years", () => {
     friend1.timeLeft();
-    expect(friend1.timeLeft()).toEqual(31);
+    expect(friend1.yearsToLive).toEqual(31);
   });
 
   test("should return years lived beyond life expectancy, if ager has surpassed life expectancy", () => {

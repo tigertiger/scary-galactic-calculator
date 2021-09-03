@@ -5,14 +5,15 @@ export class Ager {
     this.assignedSex = assignedSex;
     this.motivation = motivation;
     this.lifeExpect = lifeExpect;
+    this.yearsToLive = 0;
   }
 
   timeLeft() {
-    let yearsToLive = this.lifeExpect - this.age;
-    if (yearsToLive < 0) {
+    this.yearsToLive = this.lifeExpect - this.age;
+    if (this.yearsToLive < 0) {
       return `You have already lived ${this.age - this.lifeExpect} years longer than expected. Good job.`
     }
-    return yearsToLive;
+    return this.yearsToLive;
   }
 
   mercuryTimeLeft() {
