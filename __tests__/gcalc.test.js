@@ -29,6 +29,6 @@ describe("mercuryAger", () => {
 describe("venusAger", () => {
   test("should correctly return ager's age in venus years", () => {
     let friend1 = new venusAger(60);
-    expect(friend1.age).toEqual();
+    expect(friend1.age).toEqual(37);
   });
 });
