@@ -56,6 +56,10 @@ describe("ager", () => {
     expect(friend1.marsTimeLeft()).toEqual("About 58 Martian years");
   });
 
+  test("should return Martian years lived beyond life expectancy", () => {
+    expect(friend2.marsTimeLeft()).toEqual("You have already lived about 34 Martian years longer than expected. Good job.");
+  });
+
 });
 
 
