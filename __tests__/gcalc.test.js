@@ -1,6 +1,7 @@
 import { Ager } from "../src/js/gcalc.js";
 import { mercuryAger } from "../src/js/mercury.js";
 import { venusAger } from "../src/js/venus.js";
+import { marsAger } from "../src/js/mars.js";
 
 describe("ager", () => {
   let friend1;
@@ -12,14 +13,14 @@ describe("ager", () => {
     expect(friend1).toBeDefined();
   });
 
-  test("should correctly return ager's age in earth years", () => {
+  test("should correctly return ager's age in Earth years", () => {
     expect(friend1.age).toEqual(60);
     });
 });
 
 
 describe("mercuryAger", () => {
-  test("should correctly return ager's age in mercury years", () => {
+  test("should correctly return ager's age in Mercury years", () => {
     let friend1 = new mercuryAger(60);
     expect(friend1.age).toEqual(14);
   });
@@ -27,8 +28,15 @@ describe("mercuryAger", () => {
 
 
 describe("venusAger", () => {
-  test("should correctly return ager's age in venus years", () => {
+  test("should correctly return ager's age in Venus years", () => {
     let friend1 = new venusAger(60);
     expect(friend1.age).toEqual(37);
+  });
+});
+
+describe("marsAger", () => {
+  test("should correctly return ager's age in Mars years", () => {
+    let friend1 = new marsAger(60);
+    expect(friend1.age).toEqual(112);
   });
 });

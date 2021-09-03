@@ -1,5 +1,5 @@
 export class mercuryAger {
   constructor(age) {
-    this.age = Math.round(age * 0.24);
+    this.age = Math.floor(age * 0.24);
   }
 }

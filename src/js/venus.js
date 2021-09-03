@@ -1,5 +1,5 @@
 export class venusAger {
   constructor(age) {
-    this.age = Math.round(age * 0.62);
+    this.age = Math.floor(age * 0.62);
   }
 }
