@@ -24,9 +24,13 @@ describe("ager", () => {
     expect(friend1.motivation).toBe("High");
   });
 
-  test("should correctly return ager's estimated remaining lifespan, in Earth years, based on user-input variables", () => {
-    expect(friend1.timeLeft()).toEqual(31);
+  test("should correctly modify life expectancy based on assignedSex", () => {
+    expect(friend1.lifeExpect).toEqual(65);
   });
+
+  // test("should correctly return ager's estimated remaining lifespan, in Earth years, based on user-input variables", () => {
+  //   expect(friend1.timeLeft()).toEqual(31);
+  // });
 
 });
 

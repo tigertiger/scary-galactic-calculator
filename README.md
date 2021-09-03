@@ -37,3 +37,27 @@ _Please feel free to reach out to me with suggested changes/improvements, or if 
 ## Contact Information
 
 Melissa Schatz-Miller <melissa.scmi@gmail.com>
+
+
+///
+
+user-input life expectancy
+||
+user-input continent, sex, motivation
+===
+years left to live
+
+ager prototype to determine life expect
+
+North America: 77/81
+Oceania: 77/81
+Europe: 75/82
+Latin America/Caribbean: 72/79
+Asia: 71/75
+Africa: 62/65
+Other: 70/75
+
+Low: -10
+Med: 0
+High: +10
+I intend to live forever: +20
